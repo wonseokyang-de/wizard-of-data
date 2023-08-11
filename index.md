@@ -1,4 +1,3 @@
 ---
-title: Welcome to my blog
+title: Welcome to dead-1ine's github-blog.
 ---
-
