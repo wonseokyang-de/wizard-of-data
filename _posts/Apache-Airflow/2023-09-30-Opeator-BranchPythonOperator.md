@@ -1,5 +1,6 @@
 ---
 title: Apache Airflow - Operator - BranchPythonOpeator
+date: 2023-09-30
 ---
 안녕하세요. 이번 글은 Airflow에서 특정 조건을 통해 분기하는 Task를 만들기 위해 사용되는 `BranchPythonOperator` 사용법에 대해 정리해보려 합니다.
 
