@@ -1,6 +1,8 @@
 ---
+layout: post
 title: 각 기술들에 대한 선수지식을 정의합니다.
 date: 2023-09-30
+categories: main
 ---
 ### 기술 목록
 ---
