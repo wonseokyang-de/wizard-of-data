@@ -9,7 +9,7 @@ categories: Apache Airflow
 ```python
 class airflow.operators.python.BranchPythonOperator
 ```
-
+<br>
 Airflow 공식 문서에서 정의하는 BranchPythonOperator는 다음과 같습니다.
 > It derives the PythonOperator and expects a Python function that returns a single task_id or list of task_ids to follow. The task_id(s) returned should point to a task directly downstream from {self}. All other “branches” or directly downstream tasks are marked with a state of skipped so that these paths can’t move forward. The skipped states are propagated downstream to allow for the DAG state to fill up and the DAG run’s state to be inferred.
 
