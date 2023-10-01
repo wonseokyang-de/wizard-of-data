@@ -23,4 +23,4 @@ Airflow 공식 문서에서 정의하는 BranchPythonOperator는 다음과 같�
 
 ### 예제 코드
 ---
-<script src="https://gist.github.com/dead-1ine/1c0b747c55d0c9d1191b1ba4ba32a023.js"></script>
+<script src="https://gist.github.com/dead-1ine/1c0b747c55d0c9d1191b1ba4ba32a023.js">Gist</script>
