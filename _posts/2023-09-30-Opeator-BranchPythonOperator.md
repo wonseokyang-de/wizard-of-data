@@ -36,24 +36,24 @@ def branching_function(condition):
 
 
 with DAG(
-	...
+    ...
 ) as dag:
 
     branching_task = PythonBranchOperator(
         task_id='branching',
-		python_callable=branching_function,
-		op_kwargs={
-			'condition': 1,
-		}
-	)
+        python_callable=branching_function,
+        op_kwargs={
+            'condition': 1,
+        }
+    )
 
-	a_task = DummyOperator(
-		task_id='branch_a'
-	)
+    a_task = DummyOperator(
+        task_id='branch_a'
+    )
 
-	b_task = DummyOperator(
-		task_id='branch_b'
-	)
+    b_task = DummyOperator(
+        task_id='branch_b'
+    )
 
-	branching_task >> [a_task, b_task]
+    branching_task >> [a_task, b_task]
 ```
