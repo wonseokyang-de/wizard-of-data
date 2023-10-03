@@ -1,5 +1,5 @@
 ---
-title: /
+title: deadline's Data Engineering Blog
 layout: home
 permalink: /
 ---
