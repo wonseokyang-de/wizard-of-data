@@ -1,8 +1,12 @@
 ---
 layout: post
-title: Apache-Airflow - Operator - BranchPythonOperator
+comments: true
 date: 2023-09-30
-categories: Apache-Airflow
+title: "Apache-Airflow - Operator - BranchPythonOperator"
+description: "Apache Airflow의 Operator 중 BranchPythonOperator 사용법에 대해 설명합니다."
+subject: blog
+category: "Apache-Airflow"
+tags: [ "Apache-Airflow" ]
 ---
 # Apache Airflow - Operator - BranchPythonOperator
  
