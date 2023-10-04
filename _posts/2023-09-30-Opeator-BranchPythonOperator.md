@@ -4,6 +4,8 @@ title: Apache-Airflow - Operator - BranchPythonOperator
 date: 2023-09-30
 categories: Apache-Airflow
 ---
+# Apache Airflow - Operator - BranchPythonOperator
+ 
 안녕하세요. 
 이번 글은 Airflow에서 특정 조건에 맞는 Task를 실행하기 위해 Python 함수와 함께 사용되는 `BranchPythonOperator` 사용법에 대해 설명합니다.
  
@@ -20,7 +22,7 @@ task_id(s)와 Downstream Task(s)로 표현한 이유는 해당 Operator를 사�
 해당 함수에서 반환되지 않은 Downstream Task(s)는 state가 `skipped`로 처리됩니다.
 <br>
 
-### Code Example(Apache-Airflow 2.2.2)
+## Code Example(Apache-Airflow 2.2.2)
 ---
 ```python
 from airflow import DAG
