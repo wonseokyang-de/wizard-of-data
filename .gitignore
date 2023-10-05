@@ -39,3 +39,7 @@ Thumbs.db
 # Jetbrain IDEA"
 ################
 .idea
+
+# Incompletion Posts #
+######################
+_posts/incompletion/*
