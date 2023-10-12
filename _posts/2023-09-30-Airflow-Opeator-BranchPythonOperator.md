@@ -24,8 +24,7 @@ class airflow.operators.python.BranchPythonOperator
 간단하게 위 Operator를 간단하게 설명하면, Python 함수를 python_callable 키워드 인자로 사용하여 해당 함수가 반환하는 문자열과 같은 task_id(s)에 해당하는 Downstream Task(s)가 실행되도록 합니다. 
 task_id(s)와 Downstream Task(s)로 표현한 이유는 해당 Operator를 사용하여 생성한 Task가 List로 묶인 task_id들을 반환하면 Downstream으로 해당하는 여러 개의 Task들이 실행되도록 합니다. 
 해당 함수에서 반환되지 않은 Downstream Task(s)는 state가 `skipped`로 처리됩니다.
-<br>
-
+ 
 ## Code Example(Apache-Airflow 2.2.2)
 ---
 ```python
@@ -63,3 +62,6 @@ with DAG(
 
     branching_task >> [a_task, b_task]
 ```
+ 
+위  코드를 통해 생성된 DAG는 다음과 같습니다.
+[Image] Airflow Web Server - DAG
