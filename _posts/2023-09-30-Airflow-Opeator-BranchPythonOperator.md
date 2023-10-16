@@ -2,7 +2,7 @@
 layout: post
 comments: true
 date: 2023-09-30
-title: "Apache-Airflow(0)\n\t- Operator - BranchPythonOperator"
+title: "Apache-Airflow - Operator - BranchPythonOperator"
 description: "Apache Airflow의 Operator 중 BranchPythonOperator 사용법에 대해 설명합니다."
 subject: blog
 category: "Apache-Airflow"
@@ -25,8 +25,11 @@ class airflow.operators.python.BranchPythonOperator
 task_id(s)와 Downstream Task(s)로 표현한 이유는 해당 Operator를 사용하여 생성한 Task가 List로 묶인 task_id들을 반환하면 Downstream으로 해당하는 여러 개의 Task들이 실행되도록 합니다. 
 해당 함수에서 반환되지 않은 Downstream Task(s)는 state가 `skipped`로 처리됩니다.
  
+
 ## Code Example(Apache-Airflow 2.2.2)
 ---
+- Code를 example dag로 변경하고 이에 대해 설명하는 것으로 변경한다.
+- 또한 다른 example들도 마찬가지로 풀어서 설명할 수 있도록 하자.
 ```python
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator
@@ -63,5 +66,7 @@ with DAG(
     branching_task >> [a_task, b_task]
 ```
  
+---
 위  코드를 통해 생성된 DAG는 다음과 같습니다.
 [Image] Airflow Web Server - DAG
+
