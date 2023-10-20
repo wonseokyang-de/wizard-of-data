@@ -12,6 +12,12 @@ tags: [ "Apache-Airflow" ]
  
 안녕하세요. 
 이번 글은 Airflow에서 특정 조건에 맞는 Task를 실행하기 위해 Python 함수와 함께 사용되는 `BranchPythonOperator` 사용법에 대해 설명합니다.
+
+- 선수 지식
+  - Airflow PythonOperator
+    BranchPythonOperator의 키워드 인자 중 `python_callable`에 대한 설명을 생략하였습니다.
+  - Task Dependency
+    BranchPythonOperator를 사용하여 생성한 Task가 Downstream Task로 연결되는 방법에 대한 설명을 생략하였습니다.
  
 Airflow 공식 문서에서 정의하는 `BranchPythonOperator`는 다음과 같습니다.
  
@@ -66,7 +72,5 @@ with DAG(
     branching_task >> [a_task, b_task]
 ```
  
----
-위  코드를 통해 생성된 DAG는 다음과 같습니다.
-[Image] Airflow Web Server - DAG
-
+위 코드는 BranchPythonOperator를 사용하여 실행할 DownStream Task를 선택하는 예제입니다.
+ 
