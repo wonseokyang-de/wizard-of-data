@@ -36,6 +36,7 @@ task_id(s)와 Downstream Task(s)로 표현한 이유는 해당 Operator를 사�
 ---
 - Code를 example dag로 변경하고 이에 대해 설명하는 것으로 변경한다.
 - 또한 다른 example들도 마찬가지로 풀어서 설명할 수 있도록 하자.
+ 
 ```python
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator
