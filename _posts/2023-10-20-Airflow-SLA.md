@@ -1,4 +1,3 @@
-# TODO: SLA를 Local 환경에서 테스트해보고, 이를 간단하게 글로 설명하자.
 ---
 layout: post
 comments: true
