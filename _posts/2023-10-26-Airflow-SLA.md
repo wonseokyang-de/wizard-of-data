@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-date: 2023-09-30
+date: 2023-10-26
 title: "Apache-Airflow - DAG - SLA"
 description: "Apache Airflow의 DAG Level에서 SLA를 설정하는 방법에 대해 소개합니다."
 subject: blog
