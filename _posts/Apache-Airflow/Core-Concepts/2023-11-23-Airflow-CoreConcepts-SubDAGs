@@ -1,0 +1,11 @@
+---
+layout: post
+comments: true
+date: 2023-11-23
+title: "Apache Airflow - Core Concepts - SubDAGs"
+description: "Apache Airflow"
+subject: blog
+category: "Apache-Airflow"
+tags: [ "Apache-Airflow" ]
+---
+# Apache Airflow - Operator - BranchPythonOperator
