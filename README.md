@@ -7,9 +7,10 @@
 2. Apache Spark
 3. Python
 4. SQL
-
+ 
+또한 programming에 대한 생각들도 간간히 올려보려고 합니다.
+ 
 ### TODO
 ---
 [] Category 별로 글을 정리하여 볼 수 있는 기능
- 
 [] Comment

@@ -1,3 +1,0 @@
-# Python의 builtin 함수들은 왜 내부 로직이 전부 pass로 되어 있을까? 이건 어떻게 실행되는거지?
-
-> 결론: Python 코드를 실행하면 Interpretter가 한 줄씩 코드를 읽으며 실행한다. 이 때 실행될 함수 중 built-in에 해당하는 함수일 경우, C언어로 작성된 CPython의 코드가 실행된다. 따라서 built-in 함수들은 CPython에 작성되어 있기 때문에 Python 코드로 작성되지 않아 내부 로직이 pass로 되어 있으며, builtins.py 파일 내부의 함수들은 단순히 문법 에러를 방지하는 역할을 하는 placeholder로 사용되고, 실제 동작하는 코드는 전부 C언어로 작성된 CPython에 존재한다. 따라서, 더 알아보기 위해서는 CPython과 C언어에 대한 이해가 필요하다.
