@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "새로 만든 블로그에 첫 글을 발행합니다!"
+title: "[INIT] 새로 만든 블로그에 첫 글을 발행합니다!"
 date: 2023-09-30
 categories: main
 ---
