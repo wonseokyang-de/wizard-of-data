@@ -2,7 +2,7 @@
 layout: post
 comments: true
 date: 2023-09-30
-title: "[Airflow] BranchPythonOperator의 간단 사용법"
+title: "[Airflow 0] BranchPythonOperator의 간단 사용법"
 description: "Apache Airflow의 Operator 중 BranchPythonOperator 사용법에 대해 설명합니다."
 subject: blog
 category: "Apache-Airflow"
