@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1. Neovim을 배우면"
+title: "[THINKING 0] Neovim을 배우면"
 date: 2023-12-07
 categories: Thinking
 ---
