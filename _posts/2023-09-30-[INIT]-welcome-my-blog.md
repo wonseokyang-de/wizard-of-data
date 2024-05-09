@@ -21,7 +21,7 @@ categories: main
 - Apache Spark
 - Python
 - SQL
-- AWS Services
+- Coding Test
  
 앞으로 잘 부탁드립니다.
 Thank you :)
