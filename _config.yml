@@ -13,5 +13,6 @@ footer: 'follow me on <a href="https://www.linkedin.com/in/wonseok-yang-de/">lin
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
-
+plugin: 
+- jekyll-remote-theme
 # b2a3e8/jekyll-theme-console
