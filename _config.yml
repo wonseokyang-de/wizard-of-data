@@ -12,4 +12,6 @@ style: dark
 footer: 'follow me on <a href="https://www.linkedin.com/in/wonseok-yang-de/">linkedin</a>'
 
 # Build settings
-remote_theme: b2a3e8/jekyll-theme-console
+remote_theme: contes2020/jekyll-theme-chirpy
+
+# b2a3e8/jekyll-theme-console
