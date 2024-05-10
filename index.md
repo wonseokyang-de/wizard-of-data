@@ -5,4 +5,4 @@ permalink: /
 ---
 
 # Welcome
-WELCOME TO dead-line's Data Engineering Blog
+"애매하게 이해하면 까먹더라" 블로그에 오신 것을 환영합니다. 이 블로그는 제가 공부한 것을 까먹지 않도록 글로 정리한 것이며, 여러 사람들과 재미있는 내용을 공유하려는 목적으로 운영하고 있습니다.
